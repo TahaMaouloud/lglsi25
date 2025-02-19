@@ -18,7 +18,7 @@ class TestStringLength(unittest.TestCase):
         self.assertEqual(string_length("  "), 2)
 
     def test_special_characters(self):
-        """Vérifie que les caractères spéciaux sont bien comptés...."""
+        """Vérifie que les caractères spéciaux sont bien comptésS"""
         self.assertEqual(string_length("!@#$%^"), 6)
 
     def test_numeric_string(self):
